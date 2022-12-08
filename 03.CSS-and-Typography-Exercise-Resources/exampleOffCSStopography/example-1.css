@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Smooch";
+    src: url("./Smooch-Regular.ttf"); 
+    /* атка се слага шрифт който е свален */
+}
+h1{
+    /* color: red; */
+    font-family: "Smooch";
+}
+p{
+    font-family: "Odibee sans", cursive;
+    /* така се прави чрез линк слага се линка в HTML head и после си се вкарва тук */
+}
+section{
+    font-size: 18px;
+}
+#p1{
+    font-size: 1.5em;
+    color: red;
+}
+#p2{
+    font-size: 1.5em;
+    color: green;
+}
+#p3{
+    font-size: 1.5em;
+    color: orange;
+}
