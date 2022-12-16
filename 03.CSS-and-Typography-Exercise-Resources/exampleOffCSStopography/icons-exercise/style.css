@@ -1,0 +1,32 @@
+*{
+    font-family: "Lato", sans-serif ;
+}
+section ul{
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #CCCCCC;
+}
+ul li a{
+    color: red;
+    padding: 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+}
+button{
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #FFF;
+    border: 1px solid green;
+}
+#checkoutButton{
+    background-color: green;
+    border: 1px solid green;
+}
+#infoButton{
+    background-color: blue;
+    border: 1px solid blue;
+}
+#deleteButton{
+    background-color: red;
+    border: 1px solid red;
+}
