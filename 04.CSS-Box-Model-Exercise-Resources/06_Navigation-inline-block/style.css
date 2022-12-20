@@ -1,0 +1,24 @@
+html{
+    font-family: Helvetica, sans-serif;
+    margin: 30px;
+}
+header nav li{
+    display: inline-block;
+}
+header nav a{
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+    font-size: 15px;
+}
+header h1,nav{
+    display: inline-block;
+}
+header h1{
+    font-size: 30px;
+    margin-right: 50px;
+}
+main h2{
+    font-weight: 500;
+    font-family: serif;
+}
