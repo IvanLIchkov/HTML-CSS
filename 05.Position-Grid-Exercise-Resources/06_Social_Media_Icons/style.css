@@ -1,0 +1,28 @@
+
+li{
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    margin: 5px;
+}
+a{
+    border: 10px solid rgb(238, 238, 238);
+    border-radius: 50%;
+}
+i{
+    color: black;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color:aqua;
+}
+.fa-square-google-plus:hover{
+    color: red;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: blue;
+}
