@@ -1,6 +1,4 @@
-#how-it-works{
-   
-}
+
 #how-it-works .how__row{
     width: calc(100% - 2 * var(--page-px-main));
     margin: 0 auto;

@@ -1,6 +1,4 @@
 #hero {
-  background-color: var(--clr-neutral);
-
   padding: 64px 0;
 }
 #hero .info {
