@@ -1,17 +1,22 @@
-
-#how-it-works .how__row{
-    width: calc(100% - 2 * var(--page-px-main));
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 110px;
+#how-it-works .how__row {
+  width: calc(100% - 2 * var(--page-px-main));
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 110px;
 }
-#how-it-works .how__row:not(:last-child){
-    margin-bottom: 96px;
+#how-it-works .how__row:not(:last-child) {
+  margin-bottom: 96px;
 }
-#how-it-works .how__row .row__img{
-    width: 50%;
-    max-width: 550px;
+#how-it-works .how__row .row__img {
+  width: 50%;
+  --rotate-deg: -10deg;
+  max-width: 550px;
+  transform-origin: bottom left;
+  transition: all 300ms ease-in-out;
+}
+#how-it-works .how__row .row__img:hover {
+  transform: scale(1.1) rotate(var(--rotate-deg));
 }
 #how-it-works .row__text .text__title {
   color: var(--clr-white);
