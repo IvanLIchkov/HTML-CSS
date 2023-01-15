@@ -1,0 +1,48 @@
+body{
+    background-color: #EEE;
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+}
+body > *{
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 1em;
+    margin: 1em;
+}
+header{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+}
+main{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 57%;
+}
+aside{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 32%;
+}
+footer{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+} 
+section{
+    padding: 0;
+    display: flex;
+    gap: 2em;
+}
+.element{
+    height: 100px;
+}
