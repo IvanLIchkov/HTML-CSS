@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4,
+p {
+  margin: 0;
+  margin: 10px;
+}
+article {
+  margin: 10px;
+}
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 100px;
+}
