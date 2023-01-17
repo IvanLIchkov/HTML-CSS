@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(238, 238, 238) ;
+}
+body, .container, ul{
+    display: flex;
+}
+ul{
+    align-items: stretch;
+}
+li{
+    list-style: none;
+    overflow: hidden;
+}
+li:nth-child(1){
+    flex-basis: 80%;
+}
+img{
+    /* display: block; */
+    max-width: 100%;
+    margin-left: -70%;
+}
