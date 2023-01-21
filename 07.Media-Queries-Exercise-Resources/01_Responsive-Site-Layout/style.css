@@ -1,0 +1,99 @@
+html {
+  background-color: white;
+}
+body {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+h1 {
+  display: inline-block;
+}
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 8px;
+}
+.nav__list__items {
+  list-style: none;
+  display: inline;
+}
+.nav__list__items a {
+  text-decoration: none;
+  color: rgb(53, 100, 153);
+  padding: 5px 15px;
+}
+
+.content {
+  height: 160px;
+  display: flex;
+  gap: 10px;
+}
+.content aside {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.content main {
+  width: 100%;
+}
+main h1,
+ul {
+  margin-left: 20px;
+}
+.content aside a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+.content aside:first-child {
+  text-decoration: none;
+  padding-top: 20px;
+}
+.content aside a:not(:last-child) {
+  margin-bottom: 10px;
+}
+footer p {
+  margin: 5px;
+}
+.bg__color {
+  background-color: aqua;
+}
+.link {
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
+  body {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "aside"
+      "main"
+      "footer";
+  }
+  h1{
+    display: block;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  aside {
+    height: 90px;
+  }
+  main {
+    height: 120;
+  }
+  nav{
+    margin-left: 30%;
+  }
+  .nav__list{
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    display: block;
+    padding-left: 50px;
+    margin-bottom: 20px;
+  }
+}
