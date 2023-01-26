@@ -1,0 +1,56 @@
+@media screen and (max-width: 600px) {
+    * {
+        overflow-x: hidden;
+    }
+  body {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .left-to-right:first-child {
+    padding: 0;
+ }
+  .left-to-right:first-child {
+   height: 600px;
+}
+  main .left-to-right article {
+    width: 100%;
+    height: min-content;
+    padding: 20px;
+    border-radius: 10%;
+  }
+  main section.left-to-right:nth-child(1){
+    height: min-content;
+    padding: 40px;
+    width: 80%;
+  }
+ 
+
+  main .left-to-right article p {
+    padding: 0px;
+  }
+  button {
+    display: none;
+  }
+  main section:nth-child(2),
+  main section:nth-child(4) {
+    flex-direction: column;
+  }
+  main section:nth-child(2) article,
+  main section:nth-child(4) article {
+    margin: 0 10% ;
+  }
+  main section:nth-child(2){
+    width: 100%;
+    margin: 0 auto;
+  }
+  main section:nth-child(2) article h1{
+    font-size: 26px;
+  }
+  main section:nth-child(2) article p{
+    font-size: 16px;
+  }
+}
