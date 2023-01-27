@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Helvetica, sans-serif;
+}
+.logo {
+  background: rgb(133, 99, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(133, 99, 33, 1) 33%,
+    rgba(206, 170, 58, 1) 100%
+  );
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  z-index: 0;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 90%;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+header .main__nav {
+    z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header .main__nav li button {
+  width: 130px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  color: #475676;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+header .main__nav li i {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+header .main__nav button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .second__nav {
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+header .second__nav button {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  color: #475676;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+header .second__nav:last-child {
+  padding-right: 15px;
+}
+.hover__nav button:hover {
+  background-color: #bb952a;
+  color: white;
+}
+.shuttle {
+  background-image: url(./image/slider.jpg);
+  background-position: center;
+  object-fit: contain;
+  height: 75vh;
+  width: 100%;
+  height: 60vh;
+  z-index: -2;
+}
+.shuttle__box {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  height: fit-content;
+  top: 40%;
+  left: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fefdff;
+  padding: 20px;
+}
+.shuttle__box h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.shuttle__box p {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.shuttle__box button {
+  background: rgba(0, 0, 0, 0.5);
+  color: #dd8216;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.shuttle__box button:hover {
+  background-color: white;
+}
+.budapest__card {
+  background: rgb(133, 99, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(133, 99, 33, 1) 33%,
+    rgba(206, 170, 58, 1) 100%
+  );
+  width: 100%;
+  height: 50vh;
+  color: #f3fbf7;
+  padding: 25px 35%;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .wrapper li{
+    font-size: 22px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .wrapper li i{
+    padding-right: 5px;
+  }
+  .wrapper button{
+    font-size: 16px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+  }
+  .places{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .places h1{
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .places span{
+    margin-bottom: 20px;
+  }
+  .places ul{
+    display: flex;
+    gap: 10px;
+  }
+  .places ul li{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .places ul img{
+    border-radius: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }
+  .subscribe{
+    padding-left: 20px;
+    background-color: #b58e0f;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .left{
+    width: 400px;
+    position: relative;
+    top: 30px;
+
+
+  }
+  .right{
+    display: inline;
+    position: relative;
+    left: 1200px;
+    bottom: 18px;
+  }
+  .right button {
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+  }
+  footer{
+    text-align: center;
+    margin-bottom: 20px;
+  }
