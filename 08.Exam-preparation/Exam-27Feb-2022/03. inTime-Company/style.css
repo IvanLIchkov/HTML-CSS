@@ -1,0 +1,258 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html{
+    font-family:Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+header nav h2 span{
+    color:#86ccd7 ;
+}
+header nav ul{
+    width: 35%;
+    display: flex;
+    gap: 5%;
+}
+header nav ul li button{
+    border: none;
+    background-color: #ffffff;
+}
+header nav ul li:nth-child(1){
+    border-bottom: 4px solid #34b1c4;
+}
+.get-started{
+    background-image: url(./images/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+.get-started .wrapper{
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: max-content;
+    padding: 10px;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.get-started .wrapper h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+.get-started .wrapper button{
+    padding: 5px 40px;
+    font-size: 20px;
+    background-color: #008cba;
+    color: #fafafa;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: max-content;
+}
+.welcome-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.welcome-info h1{
+   font-weight: 200;
+   font-size: 36px;
+   margin-bottom: 1px;
+   color: #454545;
+}
+.welcome-info .line{
+    background-color: #34b1c4;
+    padding: 2px;
+    width: 5%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+ }
+ .welcome-info p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #454545;
+    margin-bottom: 20px;
+ }
+ .welcome-info button{
+    display: inline-block;
+    width: 8%;
+    margin: 0 auto;
+    background-color: #454545;
+    padding: 10px;
+    color: #dde0e5;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+ }
+ .services{
+    background-color: #eef0f1;
+    text-align: center;
+    padding-top: 30px;
+    height: fit-content;
+ }
+ .services h1{
+    font-weight: 200;
+   font-size: 36px;
+   margin-bottom: 2px;
+ }
+ .services .services-line{
+    padding: 2px;
+    background-color: #464646;
+    width: 5%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+ }
+ .services ul{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 1%;
+ }
+ .services ul li{
+    width: 30%;
+    height: 560px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    border-radius: 6px;
+ }
+ .services ul li img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: 20px;
+ }
+ .services ul li div{
+    height: max-content;
+ }
+ .services ul li div h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+ .services ul li div p{
+    width: 79%;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+ .services ul li div button{
+    color: white;
+    font-size: 16px;
+    background-color: #464646;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+ }
+ .subscribe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #393f43;
+    color:#f8ffff ;
+ }
+ .subscribe h1{
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 2px;
+ }
+ .subscribe .subscribe-line{
+    padding: 2px;
+    background-color: #f8ffff;
+    width: 5%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }
+ .subscribe p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+ .subscribe .input-info{
+    margin-bottom: 40px;
+ }
+ .subscribe .input-info input{
+    width: 30%;
+    height: 30px;
+    background-color: #545a5e;
+    border: none;
+    border-radius: 3px;
+    font-style: italic;
+ }
+ .subscribe .input-info button{
+    height: 30px;
+    width: max-content;
+    cursor: pointer;
+    color: #eef0f1;
+    background-color: #6bbfff;
+    border: none;
+    border-radius: 3px;
+ }
+ .contact{
+    background-color: #2f3539;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .contact ul h4{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 18px;
+ }
+ .contact ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 200;
+ }
+ .contact ul:nth-child(3) li:nth-child(2){
+    margin-bottom: 20px;
+ }
+ .contact .social .wrapper-social{
+    display: flex;
+    justify-content: space-between;
+ }
+ footer{
+    background-color: #262b2f;
+    color: #dde0e5;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ footer span{
+    color: #5285b9;
+ }
+
