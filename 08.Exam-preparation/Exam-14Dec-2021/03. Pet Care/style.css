@@ -1,0 +1,222 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500;600;900&display=swap');
+
+*,
+*::before,
+*::after {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav ul{
+    display: flex;
+    gap: 10%;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #242b44;
+}
+.content-head {
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    padding-top: 0px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 200px;
+}
+.content-head .head-wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    width: 100%;
+    margin: 0 auto;
+}
+.content-head .head-wrapper .content{
+    height: fit-content;
+    position: relative;
+    top: 150px;
+    width: max-content;
+}
+.content-head .head-wrapper .content p{
+    margin-bottom:30px ;
+    font-size: 14px;
+}
+.content-head .head-wrapper .content button{
+    color: #FA540C;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 70%;
+    border-radius: 30px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+.content-head .head-wrapper .content h1{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 50px;
+}
+.content-head .head-wrapper .content h1 span{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+}
+.services{
+text-align: center;
+width: 80%;
+margin: 0 auto;
+margin-bottom: 200px;
+}
+.services h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.services .wrap-p{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.services ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    justify-content: center;
+    height: max-content;
+}
+.services ul li{
+    border: 1px solid #FA540C;
+    width: 330px;
+}
+.services ul li .img-bg{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.services ul li .img-bg .animal{
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+.services ul li .img-bg .bg{
+    position: relative;
+    z-index: -1;
+    right: 50px;
+}
+.services ul li h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.services ul li p{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.care{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 300px;
+}
+.care div img{
+    height: 550px;
+}
+.care .content{
+    padding-top: 50px;
+}
+.care .content span,h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+.care .content h2{
+    margin-bottom: 30px;
+}
+.care .content p{
+    width: 70%;
+    margin-bottom: 30px;
+}
+.care .content button{
+    color: #FFFFFF;
+    background-color: #FA540C;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 30%;
+    border-radius: 30px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+.why{
+    background-image: url(./images/cats-bg.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+.why h2{
+    margin-bottom: 30px;
+}
+.why .why-p{
+    width: 40%;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.why div{
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.why div p{
+    padding: 10px 0px;
+    font-weight: 900;
+}
+.why button{
+    color: #FA540C;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 15%;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+footer ul h4,img{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+footer ul li{
+    margin-bottom: 10px;
+}

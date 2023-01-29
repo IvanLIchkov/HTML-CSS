@@ -1,0 +1,40 @@
+@media screen and (max-width:600px) {
+    body{
+    width: 600px;
+    }
+    .tm-header-inner{
+        padding:40px 10px ;
+    }
+    .tm-header-inner article{
+        font-size: 2;
+    }
+    .tm-nav{
+        padding-left: 90%;
+    }
+    .text-center{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tm-section-title{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    #tm-gallery-page-pizza{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .tm-gallery {
+        flex-direction: column;
+        width: 80%;
+    }
+    .tm-gallery-item{
+        margin: 0 auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+    }
+}
