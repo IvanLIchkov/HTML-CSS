@@ -1,0 +1,181 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html{
+    font-family: 'Helvetica';
+}
+header nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav .logo{
+    display: flex;
+    gap: 20px;
+    height: 50%;
+}
+header nav .logo h1{
+    font-size: 42px;
+    margin: auto;
+    background-color: white;
+}
+header nav .logo span{
+    color: #52555a;
+    margin-top: auto;
+}
+header nav .logo .line{
+    padding: 1px;
+    height: 50px;
+    background-color: #52555a;
+}
+nav ul{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    height: 50px;
+    width: 120px;
+}
+nav ul li button{
+    height: 100%;
+    width: 100%;
+    color: #505e74;
+    background-color: #ECECEC;
+    border: none;
+    cursor: pointer;
+}
+nav ul li:first-child button{
+    background-color: #e24e2a;
+    color: white;
+}
+.banner{
+    background-image: url(./images/banner.jpg);
+    height:60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.info{
+    background-color: #e24e2a;
+    padding: 50px 0px;
+}
+.info p{
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 200;
+    font-size: 17px;
+}
+.info p span{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.info p span:first-child{
+    text-decoration: none;
+}
+.menu{
+    margin: 0 auto;
+    padding: 100px 0px;
+    background-color: #383838;
+}
+.menu ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    color: white;
+    gap: 20px;
+}
+.menu ul li i{
+    font-size: 50px;
+    padding: 15px;
+    background-color:#e24e2a;
+    margin-bottom: 20px;
+}
+.menu ul li h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.menu ul li .menu-line{
+    width: 100%;
+    padding: 1px;
+    background-color: #52555a;
+    margin-bottom: 20px;
+}
+.grey{
+    color: #52555a;
+}
+.sign-up{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0px;
+}
+.sign-up h1{
+    color: #52555a;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.sign-up p{
+    color: #c1c1c2;
+    margin-bottom: 20px;
+}
+.sign-up button{
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    width: 30%;
+    height: 50px;
+    background-color: #1b9772;
+    border: none;
+    cursor: pointer;
+}
+.contact{
+    padding: 100px 0px;
+    background-color: #383838;
+}
+.contact ul{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.contact ul li{
+    text-align: center;
+    height: max-content;
+}
+.contact ul li h1{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+footer{
+    padding: 100px;
+    text-align: center;
+    background-color: #1b9772;
+    color: #52555a;
+    font-weight: 100;
+}
+footer span{
+    color: white;
+    font-weight: 500;
+}
