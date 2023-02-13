@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1,h5{
+    font-family: 'Georgia', sans-serif;
+}
+p, button{
+    font-family: 'Helvetica';
+}
+.content header h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.content header p{
+    font-size: 20px;
+    color: #7d787c;
+    margin-bottom: 30px;
+}
+
+.content .wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    margin-bottom: 100px;
+}
+.content .wrapper div{
+    width: 50%
+}
+.content .wrapper div:first-child{
+    text-align: center;
+    position: relative;
+}
+.content .wrapper div button{
+   width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    background-color: #04ab7c;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.content .wrapper .text h5{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.content .wrapper .text p{
+    color: #7d787c;
+    font-size: 24px;
+    line-height: 30px;
+}
+.content .wrapper .text span{
+    background-color: #cefde9;
+    
+}
+.line{
+    padding: 1px;
+    background-color:#7d787c;
+    width: 25%;
+    margin: 0 auto;
+}

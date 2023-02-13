@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --clr-bg: #ffffff;
+  --clr-button: #9a5dc6;
+  --clr-first-row-table: #e6e6e6;
+  --clr-second-row-table: #f8f8f8;
+  --clr-footer-bg: #54546d;
+  --clr-font: #54546d;
+  --clr-font-white: #ffffff;
+}
+*,
+*::before,
+*::after {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header nav img {
+  width: 150px;
+  height: 100px;
+}
+header nav ul {
+  display: flex;
+  gap: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: var(--clr-font);
+}
+main .taxes {
+  background-color: #54546d;
+  position: relative;
+  text-align: center;
+  height: 30vh;
+
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+main .taxes img {
+  position: absolute;
+  top: 20%;
+  left: -70px;
+}
+main .taxes .options {
+  position: absolute;
+  top: 100px;
+  width: 90%;
+  left: 5%;
+}
+main .taxes h1 {
+  color: var(--clr-font-white);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+main .taxes .big-list {
+  display: flex;
+  gap: 20px;
+  height: 300px;
+  justify-content: center;
+}
+main .taxes .big-list .bg-white {
+  background-color: var(--clr-bg);
+  width: 30%;
+  color: var(--clr-font);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .taxes .big-list .course-type {
+  display: flex;
+  justify-content: space-around;
+}
+main .taxes .big-list .green-bg {
+  background: rgb(4, 155, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 155, 62, 1) 33%,
+    rgba(74, 214, 128, 1) 100%
+  );
+  color: var(--clr-font-white);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: 400;
+}
+main .taxes .big-list .course-type.blue {
+  background: rgb(76, 107, 135);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 107, 135, 1) 33%,
+    rgba(98, 155, 207, 1) 100%
+  );
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: 400;
+}
+main .taxes .big-list .course-type.purple {
+  background: rgb(74, 55, 165);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 55, 165, 1) 33%,
+    rgba(140, 125, 225, 1) 100%
+  );
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: 400;
+}
+main .taxes .big-list .course-type .line {
+  padding: 1px;
+  background-color: var(--clr-bg);
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+main .taxes .big-list .course-type li {
+  color: var(--clr-font-white);
+}
+main .taxes .big-list .wrapper {
+  padding: 20px 10px 10px 10px;
+}
+main .taxes .big-list li:first-child .wrapper h2 {
+  margin-bottom: 10px;
+}
+main .taxes .big-list li:first-child .wrapper p {
+  margin-bottom: 40px;
+}
+main .taxes .big-list li:first-child .wrapper button {
+  color: var(--clr-font-white);
+  background-color: var(--clr-button);
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 180px;
+}
+main .taxes .big-list li:not(:first-child) .wrapper h2 {
+  margin-bottom: 20px;
+}
+main .taxes .big-list li:not(:first-child) .wrapper p {
+  margin-bottom: 20px;
+}
+main .studying-type {
+  width: 70%;
+  margin: 0 auto;
+}
+main .studying-type h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+main .studying-type p {
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+table tr {
+  text-align: left;
+  height: 40px;
+  padding: 100px;
+}
+table th {
+  width: 80%;
+  padding-left: 30px;
+}
+table tr:nth-child(odd) {
+  background-color: var(--clr-first-row-table);
+}
+table tr:nth-child(even) {
+  background-color: var(--clr-second-row-table);
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tr:last-child th:last-child {
+  border-bottom-left-radius: 10px; 
+}
+.bank {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.bank img{
+    height: 100px;
+}
+.bank h2{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.bank p{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #54546d;
+    color: #7f7e9a;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
