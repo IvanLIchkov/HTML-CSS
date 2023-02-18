@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Lato', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+img.size{
+  width: 100px;
+  height: fit-content;
+}
+header{
+  background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5)),
+  url(./images/hero-certificates.jpg);;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+  margin-bottom: 50px;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 6px;
+  height: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  -webkit-box-shadow: 20px 22px 67px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 22px 67px -23px rgba(0,0,0,0.75);
+box-shadow: 20px 22px 67px -23px rgba(0,0,0,0.75);
+margin-bottom: 50px;
+}
+header nav img{
+  padding-top: 20px;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li:nth-child(3){
+  border-top: 5px solid #42abf8;
+}
+header nav ul li:last-child a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  background-color: #42abf8;
+  border-radius: 100px;
+  -webkit-box-shadow: 49px 43px 81px -21px rgba(66,171,248,1);
+-moz-box-shadow: 49px 43px 81px -21px rgba(66,171,248,1);
+box-shadow: 49px 43px 81px -21px rgba(66,171,248,1);
+}
+header .about-certificats{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 100px;
+  margin-bottom: 20px;
+}
+header .about-certificats .info{
+  background-color: #29394b;
+  color: white;
+  padding: 10px;
+  width: 900px;
+  border-radius: 6px;
+}
+header .about-certificats .info h1{
+  font-weight: 500;
+}
+header .about-certificats .info h1,p{
+  margin-bottom: 20px;
+}
+header .about-certificats .certificats {
+  font-size: 0;
+}
+header .header-footer{
+  width: 80%;
+  margin: 0 auto;
+  font-style: italic;
+  color: #29394b;
+}
+main{
+  width: 85%;
+  margin: 0 auto;
+}
+main .diploma {
+  margin-bottom: 50px;
+}
+main .diploma h1{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+main .diploma div{
+  background-color: #f4f5f7;
+  padding: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+main .diploma p{
+  font-size: 18px;
+}
+main .explore{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/sign-up-prompt-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+main .explore h1{
+  font-weight: 500;
+  margin-bottom: 20px;
+    font-size: 30px;
+}
+main .explore p{
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+main .explore .buttons .buttons-line{
+  padding: 1px;
+  background-color: white
+}
+main .explore .buttons{
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .explore .buttons button:first-child{
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+main .explore .buttons button:first-child:hover{
+  background-color: white;
+  color: #42abf8;
+  border: 1px solid transparent;
+}
+main .explore .buttons button:last-child{
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+main .line{
+  padding: 0.5px;
+  background-color: #29394b;
+  margin-bottom: 40px;
+}
+main footer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main footer ul{
+  display: flex;
+  gap: 10px;
+}
+main footer ul li a{
+  text-decoration: none;
+  color: #3e4c5d;
+}
+main footer div{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+main footer div span{
+  color: #d7d7d7;
+}

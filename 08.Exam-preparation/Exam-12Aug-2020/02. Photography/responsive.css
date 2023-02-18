@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    div.wrapper{
+        padding: 0 3em;
+    }
+    header h1{
+        font-size: 44px ;
+    }
+    ul.icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    ul.icons li{
+        text-align: center;
+        padding: 0;
+    }
+    ul.icons li a{
+        width: 70px;
+        height: 70px;
+    }
+    .icon.style2{
+        padding: 0.6em;
+        font-size: 24px;
+        background-color: transparent;
+    }
+    main .thumbnails{
+        flex-direction: column;
+        margin:  0 auto;
+
+    }
+    main .thumbnails div{
+        display: inline-block;
+        width: max-content;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .thumbnails a{
+        margin-bottom: 30px;
+    }
+    .thumbnails > div > :last-child{
+        margin-bottom: 30px;
+    }
+    .thumbnails a img{
+        height: 300px;
+    }
+    footer p{
+        font-size: 24px;
+    }
+}
